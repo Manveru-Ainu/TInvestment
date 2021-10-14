@@ -1,0 +1,100 @@
+@media only screen and (min-width: 681px) {
+  p {
+    text-align: center; }
+  body {
+    background-color: #71f8c2; }
+  h3 {
+    text-align: center; }
+  .gridBig {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "firstLineA firstLineB" "secondLineA secondLineB";
+    justify-content: space-around;
+    align-items: center; }
+  .firstLineA {
+    grid-area: firstLineA; }
+  .firstLineB {
+    grid-area: firstLineB; }
+  .secondLineA {
+    grid-area: secondLineA; }
+  .secondLineB {
+    grid-area: secondLineB; }
+  .btn-whatsapp {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999; }
+  .btn-ig {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999; }
+  p {
+    width: 80%;
+    margin: auto; } }
+
+.logonaars {
+  padding: 0px; }
+
+h2, h3 {
+  text-align: center; }
+
+.img-thumbnail {
+  display: block;
+  margin: auto;
+  border-radius: 15%; }
+
+.title {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  z-index: 100; }
+
+h5 {
+  text-align: center;
+  font-family: Papyrus;
+  font-size: 5px; }
+
+@media only screen and (max-width: 680px) {
+  p {
+    text-align: justify; }
+  .body {
+    background-color: #73e7eb; }
+  img {
+    margin: center; }
+  .btn-whatsapp {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999; }
+  .btn-ig {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 5px;
+    bottom: 100px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999; } }

@@ -1,0 +1,72 @@
+$primaryColor:#71f8c2;
+$secondaryColor: #73e7eb;
+
+@media only screen and (min-width: 681px){
+    
+    p{
+        text-align: center;
+    }
+    h5{
+        
+    }
+    
+    body{
+        background-color: $primaryColor;
+        }
+    h3{
+        text-align:center;
+    }
+    .gridBig{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "firstLineA firstLineB"
+        "secondLineA secondLineB";
+        justify-content: space-around;
+        align-items: center;
+    }
+    .firstLineA{
+        grid-area: firstLineA;
+    }
+    .firstLineB{
+        grid-area: firstLineB;
+    }
+    .secondLineA{
+        grid-area: secondLineA;
+    }
+    .secondLineB{
+        grid-area: secondLineB;
+    }
+    .btn-whatsapp {
+        display:block;
+        width:70px;
+        height:70px;
+        position: fixed;
+        right:10px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+    }
+    .btn-ig {
+        display:block;
+        width:70px;
+        height:70px;
+        position: fixed;
+        right:10px;
+        bottom:100px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+    }
+    p{
+        width: 80%;
+        margin: auto;
+    }
+
+
+
+}

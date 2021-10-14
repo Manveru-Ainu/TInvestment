@@ -1,0 +1,73 @@
+@import "./681px.scss";
+
+$primaryColor:#73e7eb;
+$secondaryColor: #71f8c2;
+.logonaars{
+    padding: 0px;
+}
+h2,h3{
+    text-align: center;
+}
+.img-thumbnail{
+    display: block;
+    margin: auto;
+    border-radius: 15%;
+}
+.title{
+    margin: auto;
+    text-align:center;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+h5{
+    text-align:center;
+    font-family: Papyrus;
+    font-size: 5px;
+}
+
+
+@media only screen and (max-width: 680px){
+
+$font-family: Akronim, cursive;
+p{
+    text-align: justify;
+}
+h1{
+
+}
+.body{
+    background-color: $primaryColor;
+}
+img{
+    margin: center;
+    
+}
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    position: fixed;
+    right:5px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+.btn-ig {
+    display:block;
+    width:70px;
+    height:70px;
+    position: fixed;
+    right:5px;
+    bottom:100px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+}
+
+
