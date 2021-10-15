@@ -1,5 +1,12 @@
 @import "./681px.scss";
-
+html {
+    background:#ecf0f1;
+  }
+  canvas {
+    display:block;
+    margin:auto;
+    background:#ecf0f1;
+  }
 $primaryColor:#73e7eb;
 $secondaryColor: #71f8c2;
 .logonaars{

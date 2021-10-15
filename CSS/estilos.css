@@ -46,6 +46,14 @@
     width: 80%;
     margin: auto; } }
 
+html {
+  background: #ecf0f1; }
+
+canvas {
+  display: block;
+  margin: auto;
+  background: #ecf0f1; }
+
 .logonaars {
   padding: 0px; }
 
